@@ -1,0 +1,26 @@
+.hello {
+    font-size: 10em;
+    margin-bottom: -2%;
+    padding-top: 5%;
+    text-align: center;
+    margin-top: 0%;
+}
+.myIntro {
+    font-size: 100px;
+    text-align: center;
+}
+
+.introContainer {
+    height: 100vh;
+}
+
+/* For Mobile Devices */
+@media only screen and (max-width: 768px) {
+    .hello {
+        margin-top: 60%;
+        font-size: 50px;
+    }
+    .myIntro {
+        font-size: 25px;
+    }
+}
