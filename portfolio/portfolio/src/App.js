@@ -4,6 +4,7 @@ import Intro from './components/sections/Intro';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/sections/About';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>

@@ -13,12 +13,18 @@
     font-weight: 600;
 }
 
+.active {
+    opacity: 50%;
+}
+
 .links {
-    margin-right: 15px;
+    color: black;
+    text-decoration: none;
 }
 
 .links:hover {
     cursor: pointer;
+    color: black;
     opacity: 50%;
 }
 

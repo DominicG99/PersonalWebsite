@@ -8,18 +8,20 @@ function Header() {
     activeClass="active"
     to="home"
     spy={true}
-    smooth={true}
+    smooth={false}
     offset={-70}
     duration={500}
+    style={{marginRight: "15px"}}
     className='links'
 >Home</Link>
   <Link
     activeClass="active"
     to="about"
     spy={true}
-    smooth={true}
+    smooth={false}
     offset={0}
-    duration={1500}
+    duration={500}
+    style={{marginRight: "15px"}}
     className='links'
 >About</Link>
   
@@ -30,6 +32,7 @@ function Header() {
     smooth={true}
     offset={-70}
     duration={500}
+    style={{marginRight: "15px"}}
     className='links'
 >Skills</Link>
   <Link
@@ -39,6 +42,7 @@ function Header() {
     smooth={true}
     offset={-70}
     duration={500}
+    style={{marginRight: "15px"}}
     className='links'
 >Projects</Link>
   <Link
@@ -48,6 +52,7 @@ function Header() {
     smooth={true}
     offset={-70}
     duration={500}
+    className='links'
 >Hobbies</Link>
   </nav>
     
